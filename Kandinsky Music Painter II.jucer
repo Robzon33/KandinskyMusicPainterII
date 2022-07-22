@@ -80,10 +80,10 @@
                 file="Source/gui/player/PlayerComponent.h"/>
         </GROUP>
         <GROUP id="{DD9D70E9-2C6D-81EB-21D9-F189E807F29D}" name="resources">
-          <FILE id="rCPZ5u" name="player-pause.png" compile="0" resource="1"
-                file="../../Kandinsky-Music-Painter-II/Source/gui/resources/player-pause.png"/>
-          <FILE id="fKxEXy" name="player-play.png" compile="0" resource="1" file="../../Kandinsky-Music-Painter-II/Source/gui/resources/player-play.png"/>
-          <FILE id="F3M8AK" name="player-stop.png" compile="0" resource="1" file="../../Kandinsky-Music-Painter-II/Source/gui/resources/player-stop.png"/>
+          <FILE id="Y2GoQO" name="player-pause.png" compile="0" resource="1"
+                file="Source/gui/resources/player-pause.png"/>
+          <FILE id="UrEuRB" name="player-play.png" compile="0" resource="1" file="Source/gui/resources/player-play.png"/>
+          <FILE id="BqOSvu" name="player-stop.png" compile="0" resource="1" file="Source/gui/resources/player-stop.png"/>
         </GROUP>
         <GROUP id="{55ACAEC0-E97E-B994-6083-113D17838408}" name="toolbar">
           <FILE id="g9Ytp6" name="ToolBarComponent.cpp" compile="1" resource="0"
