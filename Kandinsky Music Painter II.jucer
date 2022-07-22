@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="iT7G1Q" name="Kandinsky Music Painter II" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1" pluginCharacteristicsValue="pluginProducesMidiOut">
+  <MAINGROUP id="b7Fbnh" name="Kandinsky Music Painter II">
+    <GROUP id="{AE2AF2E4-DF96-0FF7-C152-56134AD1D382}" name="Source">
+      <GROUP id="{78A2FE01-439B-19F2-2031-59A6093DB31C}" name="gui">
+        <GROUP id="{0105690E-FA5E-C050-033C-511AE709862A}" name="midiMonitor">
+          <FILE id="jmKf2D" name="MidiMonitorComponent.cpp" compile="1" resource="0"
+                file="Source/gui/midiMonitor/MidiMonitorComponent.cpp"/>
+          <FILE id="WtPpdF" name="MidiMonitorComponent.h" compile="0" resource="0"
+                file="Source/gui/midiMonitor/MidiMonitorComponent.h"/>
+        </GROUP>
+        <GROUP id="{D942E729-AC87-A259-0399-44CBA0EB6715}" name="extensions">
+          <FILE id="IDrQT8" name="FileLoader.cpp" compile="1" resource="0" file="Source/gui/extensions/FileLoader.cpp"/>
+          <FILE id="oypYmV" name="FileLoader.h" compile="0" resource="0" file="Source/gui/extensions/FileLoader.h"/>
+          <FILE id="wAioKW" name="FileSaver.cpp" compile="1" resource="0" file="Source/gui/extensions/FileSaver.cpp"/>
+          <FILE id="vGrejK" name="FileSaver.h" compile="0" resource="0" file="Source/gui/extensions/FileSaver.h"/>
+        </GROUP>
+        <GROUP id="{78974DD3-0912-D647-A716-EC8B3A0C72EC}" name="custom">
+          <FILE id="c0rPPf" name="PropertyComponents.h" compile="0" resource="0"
+                file="Source/gui/custom/PropertyComponents.h"/>
+          <FILE id="V8Q9FD" name="TextComponent.h" compile="0" resource="0" file="Source/gui/custom/TextComponent.h"/>
+        </GROUP>
+        <GROUP id="{452C7BFB-10F5-AFC5-E5A4-CA3C0D1CDD40}" name="tools">
+          <FILE id="ZxCina" name="Kmp2Ellipse.cpp" compile="1" resource="0" file="Source/gui/tools/Kmp2Ellipse.cpp"/>
+          <FILE id="aQldXs" name="Kmp2Ellipse.h" compile="0" resource="0" file="Source/gui/tools/Kmp2Ellipse.h"/>
+          <FILE id="Jwb0bi" name="Kmp2Line.cpp" compile="1" resource="0" file="Source/gui/tools/Kmp2Line.cpp"/>
+          <FILE id="hqN9Y4" name="Kmp2Line.h" compile="0" resource="0" file="Source/gui/tools/Kmp2Line.h"/>
+          <FILE id="zP8qLB" name="Kmp2Rectangle.cpp" compile="1" resource="0"
+                file="Source/gui/tools/Kmp2Rectangle.cpp"/>
+          <FILE id="yvn7qx" name="Kmp2Rectangle.h" compile="0" resource="0" file="Source/gui/tools/Kmp2Rectangle.h"/>
+          <FILE id="JvdyHW" name="Kmp2Sinus.cpp" compile="1" resource="0" file="Source/gui/tools/Kmp2Sinus.cpp"/>
+          <FILE id="oRtWxz" name="Kmp2Sinus.h" compile="0" resource="0" file="Source/gui/tools/Kmp2Sinus.h"/>
+          <FILE id="X8IY3r" name="Kmp2Tool.cpp" compile="1" resource="0" file="Source/gui/tools/Kmp2Tool.cpp"/>
+          <FILE id="wlNluy" name="Kmp2Tool.h" compile="0" resource="0" file="Source/gui/tools/Kmp2Tool.h"/>
+          <FILE id="sjhjBw" name="Kmp2ToolIDs.h" compile="0" resource="0" file="Source/gui/tools/Kmp2ToolIDs.h"/>
+          <FILE id="P9icIs" name="Kmp2Trail.cpp" compile="1" resource="0" file="Source/gui/tools/Kmp2Trail.cpp"/>
+          <FILE id="zKHPuc" name="Kmp2Trail.h" compile="0" resource="0" file="Source/gui/tools/Kmp2Trail.h"/>
+        </GROUP>
+        <GROUP id="{65FE8F63-E306-F634-82B8-0D2750A9B7AC}" name="menu">
+          <FILE id="PBTBl2" name="MenuBarComponent.cpp" compile="1" resource="0"
+                file="Source/gui/menu/MenuBarComponent.cpp"/>
+          <FILE id="Pp5trV" name="MenuBarComponent.h" compile="0" resource="0"
+                file="Source/gui/menu/MenuBarComponent.h"/>
+        </GROUP>
+        <GROUP id="{1B7F0FDF-621E-0EA3-A6CC-86776507B79D}" name="painting">
+          <GROUP id="{6FCC2E65-FF54-36ED-BC53-09A8ED6F9DAD}" name="velocity">
+            <FILE id="hV18PF" name="FrameVelocityComponent.cpp" compile="1" resource="0"
+                  file="Source/gui/painting/velocity/FrameVelocityComponent.cpp"/>
+            <FILE id="btwozB" name="FrameVelocityComponent.h" compile="0" resource="0"
+                  file="Source/gui/painting/velocity/FrameVelocityComponent.h"/>
+            <FILE id="Sbs5tm" name="VelocityComponent.cpp" compile="1" resource="0"
+                  file="Source/gui/painting/velocity/VelocityComponent.cpp"/>
+            <FILE id="aEHnxL" name="VelocityComponent.h" compile="0" resource="0"
+                  file="Source/gui/painting/velocity/VelocityComponent.h"/>
+          </GROUP>
+          <GROUP id="{9902E4B2-2573-80DF-AEFD-2F90A487EE33}" name="track">
+            <FILE id="PmN8SC" name="Drawer.cpp" compile="1" resource="0" file="Source/gui/painting/track/Drawer.cpp"/>
+            <FILE id="Z5gpdw" name="Drawer.h" compile="0" resource="0" file="Source/gui/painting/track/Drawer.h"/>
+            <FILE id="CpNIRm" name="FrameTrackComponent.cpp" compile="1" resource="0"
+                  file="Source/gui/painting/track/FrameTrackComponent.cpp"/>
+            <FILE id="g7Jyht" name="FrameTrackComponent.h" compile="0" resource="0"
+                  file="Source/gui/painting/track/FrameTrackComponent.h"/>
+            <FILE id="HDVnL7" name="TrackComponent.cpp" compile="1" resource="0"
+                  file="Source/gui/painting/track/TrackComponent.cpp"/>
+            <FILE id="SRfFSE" name="TrackComponent.h" compile="0" resource="0"
+                  file="Source/gui/painting/track/TrackComponent.h"/>
+          </GROUP>
+          <FILE id="tWDOtk" name="MainPaintingComponent.cpp" compile="1" resource="0"
+                file="Source/gui/painting/MainPaintingComponent.cpp"/>
+          <FILE id="rK3Xws" name="MainPaintingComponent.h" compile="0" resource="0"
+                file="Source/gui/painting/MainPaintingComponent.h"/>
+        </GROUP>
+        <GROUP id="{981FAEF9-31A5-40CE-D632-90D701A439C5}" name="player">
+          <FILE id="kt4jm9" name="PlayerComponent.cpp" compile="1" resource="0"
+                file="Source/gui/player/PlayerComponent.cpp"/>
+          <FILE id="eTgHJ7" name="PlayerComponent.h" compile="0" resource="0"
+                file="Source/gui/player/PlayerComponent.h"/>
+        </GROUP>
+        <GROUP id="{DD9D70E9-2C6D-81EB-21D9-F189E807F29D}" name="resources">
+          <FILE id="rCPZ5u" name="player-pause.png" compile="0" resource="1"
+                file="../../Kandinsky-Music-Painter-II/Source/gui/resources/player-pause.png"/>
+          <FILE id="fKxEXy" name="player-play.png" compile="0" resource="1" file="../../Kandinsky-Music-Painter-II/Source/gui/resources/player-play.png"/>
+          <FILE id="F3M8AK" name="player-stop.png" compile="0" resource="1" file="../../Kandinsky-Music-Painter-II/Source/gui/resources/player-stop.png"/>
+        </GROUP>
+        <GROUP id="{55ACAEC0-E97E-B994-6083-113D17838408}" name="toolbar">
+          <FILE id="g9Ytp6" name="ToolBarComponent.cpp" compile="1" resource="0"
+                file="Source/gui/toolbar/ToolBarComponent.cpp"/>
+          <FILE id="Ce0lzd" name="ToolBarComponent.h" compile="0" resource="0"
+                file="Source/gui/toolbar/ToolBarComponent.h"/>
+        </GROUP>
+        <GROUP id="{82B3CF06-2E9F-C5C0-A83E-A80E730DB919}" name="tracklist">
+          <FILE id="hT2nY8" name="TrackConfigComponent.cpp" compile="1" resource="0"
+                file="Source/gui/tracklist/TrackConfigComponent.cpp"/>
+          <FILE id="GmTxiU" name="TrackConfigComponent.h" compile="0" resource="0"
+                file="Source/gui/tracklist/TrackConfigComponent.h"/>
+          <FILE id="OcbzqD" name="TrackListBoxComponent.cpp" compile="1" resource="0"
+                file="Source/gui/tracklist/TrackListBoxComponent.cpp"/>
+          <FILE id="GUGZur" name="TrackListBoxComponent.h" compile="0" resource="0"
+                file="Source/gui/tracklist/TrackListBoxComponent.h"/>
+        </GROUP>
+        <FILE id="d2Ftvr" name="CommandIDs.h" compile="0" resource="0" file="Source/gui/CommandIDs.h"/>
+        <FILE id="izNtYu" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/gui/MainComponent.cpp"/>
+        <FILE id="yZoo8X" name="MainComponent.h" compile="0" resource="0" file="Source/gui/MainComponent.h"/>
+      </GROUP>
+      <GROUP id="{AEB8020D-D67A-2217-2D70-582ABB409BC2}" name="model">
+        <GROUP id="{84061FE4-B12B-6160-4AED-C9D2274B629E}" name="midi">
+          <FILE id="QusFhq" name="MidiTrack.cpp" compile="1" resource="0" file="Source/model/Midi/MidiTrack.cpp"/>
+          <FILE id="OcfAEN" name="MidiTrack.h" compile="0" resource="0" file="Source/model/Midi/MidiTrack.h"/>
+          <FILE id="nuCwmo" name="MidiVelocityData.cpp" compile="1" resource="0"
+                file="Source/model/Midi/MidiVelocityData.cpp"/>
+          <FILE id="h3hfiu" name="MidiVelocityData.h" compile="0" resource="0"
+                file="Source/model/Midi/MidiVelocityData.h"/>
+        </GROUP>
+        <FILE id="M6Nzqe" name="MainModel.cpp" compile="1" resource="0" file="Source/model/MainModel.cpp"/>
+        <FILE id="kESpUb" name="MainModel.h" compile="0" resource="0" file="Source/model/MainModel.h"/>
+      </GROUP>
+      <GROUP id="{FEA9345C-3B8D-82B7-6B48-36DC8D825FCE}" name="player">
+        <FILE id="h75UPd" name="MidiPlayer.cpp" compile="1" resource="0" file="Source/player/MidiPlayer.cpp"/>
+        <FILE id="S3G7tI" name="MidiPlayer.h" compile="0" resource="0" file="Source/player/MidiPlayer.h"/>
+      </GROUP>
+      <FILE id="lGI9IU" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="boyr9W" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="H5Hl62" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Fk4zws" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Kandinsky Music Painter II"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Kandinsky Music Painter II"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
